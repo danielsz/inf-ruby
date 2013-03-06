@@ -386,5 +386,9 @@ Module used by readline when running irb through a terminal"
 (eval-after-load 'ruby-mode
   '(inf-ruby-setup-keybindings))
 
+;;;###autoload
+(eval-after-load 'enh-ruby-mode
+  '(inf-enh-ruby-setup-keybindings))
+
 (provide 'inf-ruby)
 ;;; inf-ruby.el ends here
